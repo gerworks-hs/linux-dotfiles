@@ -11,14 +11,15 @@ set encoding=utf-8
 syntax on
 
 " Plugins https://github.com/junegunn/vim-plug
+" Plugins https://github.com/tpope/vim-fugitive
 call plug#begin()
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
 
 " First plug is for theme
 " The other plug are themes for the theme
-" Then :PlugInstall to install them
 
 call plug#end()
 
