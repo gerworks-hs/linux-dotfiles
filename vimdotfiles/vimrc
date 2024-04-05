@@ -1,0 +1,32 @@
+" Show line numbers
+set number
+
+" Status bar
+set laststatus=2
+
+" Encoding
+set encoding=utf-8
+
+" Syntax highlight
+syntax on
+
+" Plugins https://github.com/junegunn/vim-plug
+call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" First plug is for theme
+" The other plug are themes for the theme
+" Then :PlugInstall to install them
+
+call plug#end()
+
+" Enable smarter tab line on airline plug
+let g:airline#extensions#tabline#enabled = 1
+" Set theme for airline plugin
+let g:airline_theme='dark'
+
+" Set tabsize
+set tabstop=4
+set shiftwidth=4

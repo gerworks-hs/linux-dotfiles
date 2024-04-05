@@ -1,0 +1,2 @@
+Main Vim config file -> vimrc (rename to .vimrc when installing)
+.vim folder in user home -> create autoload dir and copy plug.vim inside it
